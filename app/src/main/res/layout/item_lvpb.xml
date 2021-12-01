@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MÃ PHÒNG BAN:"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#E6060D"
+        android:id="@+id/txtMaPB"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TÊN PHÒNG BAN:"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/teal_200"
+        android:id="@+id/txtTenPB" />
+
+</LinearLayout>
